@@ -1,0 +1,27 @@
+{
+  "deckName": "英语词汇",
+  "dailyNewLimit": 5,
+  "cards": [
+    {
+      "sourceId": "starter-abandon",
+      "front": "abandon",
+      "back": "v. 放弃；遗弃｜They had to abandon the plan.",
+      "tags": ["英语", "动词"],
+      "state": "review",
+      "intervalDays": 3,
+      "repetitions": 1
+    },
+    {
+      "sourceId": "starter-brief",
+      "front": "brief",
+      "back": "adj. 简短的；短暂的｜We had a brief conversation.",
+      "tags": ["英语", "形容词"]
+    },
+    {
+      "sourceId": "starter-maintain",
+      "front": "maintain",
+      "back": "v. 维持；保持｜Regular exercise helps maintain good health.",
+      "tags": ["英语", "动词"]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-const CACHE = "pocket-cards-shell-v2";
+const CACHE = "pocket-cards-shell-v3";
 const SCOPE = self.registration.scope;
 const CORE = [
   "./",
@@ -6,10 +6,10 @@ const CORE = [
   "./app.js",
   "./app.css",
   "./manifest.webmanifest",
+  "./starter-cards.json",
   "./favicon.svg",
   "./apple-touch-icon.png",
   "./icon-512.png",
-  "./peppermint.png",
 ].map((path) => new URL(path, SCOPE).href);
 
 self.addEventListener("install", (event) => {

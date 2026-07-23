@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Pocket Cards",
   "short_name": "Cards",
-  "description": "一款只属于你的本地离线闪卡工具。",
+  "description": "一款免费、本地保存、支持离线使用的闪卡工具。",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
