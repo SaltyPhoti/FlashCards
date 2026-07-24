@@ -1,4 +1,4 @@
-const CACHE = "pocket-cards-shell-v5";
+const CACHE = "pocket-cards-shell-v6";
 const SCOPE = self.registration.scope;
 const CORE = [
   "./",

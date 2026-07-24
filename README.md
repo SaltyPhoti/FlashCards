@@ -24,6 +24,26 @@ peppermint,薄荷,Peppermint（薄荷）,Mentha × piperita,植物;香草,images
 
 如果卡片文字里包含英文逗号，请用英文双引号包住整个单元格。
 
+### 在背面换行
+
+代码会保留 `back` 中的换行。CSV 有两种写法：
+
+1. 把包含换行的整个 `back` 单元格放在英文双引号内：
+
+```csv
+sourceId,front,back,spelling,tags
+lavender,真正薰衣草,"其它俗名：真正薰衣草
+科属：唇形科；薰衣草属
+萃取部位：花穗",Lavandula angustifolia,唇形科;薰衣草属;花穗;蒸馏
+```
+
+2. 直接在文字中写 `\n`：
+
+```csv
+sourceId,front,back
+lavender,真正薰衣草,其它俗名：真正薰衣草\n科属：唇形科；薰衣草属\n萃取部位：花穗
+```
+
 ## JSON
 
 可以导入数组，也可以使用带 `cards` 的对象：
@@ -42,6 +62,18 @@ peppermint,薄荷,Peppermint（薄荷）,Mentha × piperita,植物;香草,images
   ]
 }
 ```
+
+JSON 中可在 `back` 里使用 `\n`：
+
+```json
+{
+  "front": "真正薰衣草 | Lavender",
+  "back": "其它俗名：真正薰衣草\n科属：唇形科；薰衣草属\n萃取部位：花穗",
+  "spelling": "Lavandula angustifolia"
+}
+```
+
+直接在“管理”页面粘贴多张卡片时，真实换行会被识别成下一张卡片，因此需要换行的内容建议使用 CSV、JSON 或包含它们的 ZIP 导入。
 
 ## 带图片的 ZIP
 
