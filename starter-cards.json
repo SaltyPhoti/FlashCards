@@ -4,8 +4,9 @@
   "cards": [
     {
       "sourceId": "starter-abandon",
-      "front": "abandon",
-      "back": "v. 放弃；遗弃｜They had to abandon the plan.",
+      "front": "放弃；遗弃",
+      "back": "abandon · v.｜They had to abandon the plan.",
+      "spelling": "abandon",
       "tags": ["英语", "动词"],
       "state": "review",
       "intervalDays": 3,
@@ -13,14 +14,16 @@
     },
     {
       "sourceId": "starter-brief",
-      "front": "brief",
-      "back": "adj. 简短的；短暂的｜We had a brief conversation.",
+      "front": "简短的；短暂的",
+      "back": "brief · adj.｜We had a brief conversation.",
+      "spelling": "brief",
       "tags": ["英语", "形容词"]
     },
     {
       "sourceId": "starter-maintain",
-      "front": "maintain",
-      "back": "v. 维持；保持｜Regular exercise helps maintain good health.",
+      "front": "维持；保持",
+      "back": "maintain · v.｜Regular exercise helps maintain good health.",
+      "spelling": "maintain",
       "tags": ["英语", "动词"]
     }
   ]
